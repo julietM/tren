@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    border: 0;
+    box-sizing: border-box;
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=240&resolucion=1920x1200);
+    background-position: center center;
+    height: 250px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav ul{
+    list-style:none;
+    text-algin:center;
+    padding:0;
+    margin:0;
+    margin-top: 260px;
+  }
+  .nav li{
+    display:inline-block;
+     padding-left:140px;
+    
+  }
+  .nav a{
+   text-decoration: none;
+   color: white;
+   font-size:35px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  @media screen and(max-width:900px) {
+
+    .nav ul li{
+        margin-top: 40px;
+    }
+    
+  }

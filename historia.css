@@ -1,0 +1,48 @@
+h1{
+    width: 100%;
+    text-align: center;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    width: 500px;
+    text-align: left;
+    padding-left: 54px;
+    font-size: 20px;
+    
+}
+h4{
+    width: 560px;
+    text-align: left;
+    padding-left: 65px;
+}
+.foto{
+    float: right;   
+    margin-top: 210px;
+    padding-right:102px;
+}
+.foto{
+   padding-left: 6200px;
+   float: right;
+   margin-top: -180px;
+   
+}
+
+
+
+@media only screen and (max-width: 1240px) {
+ 
+.foto{
+    margin-top: 60px;
+    float: none;
+    padding-left: 80px;
+}
+.foto1{
+    margin-top: 80px;
+    float: none;
+    margin-left: -6px;  
+}
+p{
+    width: 86%;
+}
+}

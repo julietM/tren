@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: firebrick;
+}
+nav{
+    width: 1120px;
+    padding-left: 79px;
+    margin-top: 40px;
+    display: block;
+}
+li{
+    color: darkblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: black;
+}
+@media only screen and (max-width:1240px) {
+  
+   nav{
+    width: 77%;
+   } 
+   h1{
+    width: 100%;
+   }
+     
+}
